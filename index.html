@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Khaled | Junior Data Engineer Portfolio</title>
+  <meta name="description" content="Professional portfolio of Ahmed Khaled, Junior Data Engineer specializing in Data Architecture, Data Warehouse Design, Dimensional Modeling, ETL/ELT pipelines, Python, SQL, Databricks, and Spark SQL.">
+  <meta name="author" content="Ahmed Khaled">
+  
+  <!-- Favicon / Tech Icon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Modern Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="Ahmed Khaled Homepage">
+        <div class="nav-logo-icon">AK</div>
+        <div class="nav-logo-text">
+          <span class="nav-logo-title">Ahmed Khaled</span>
+          <span class="nav-logo-sub">DATA ENGINEER</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#data-modeling" class="nav-link">Data Modeling</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Quick Social Icons -->
+      <div class="nav-actions">
+        <a href="https://www.linkedin.com/in/ahmed-khaled-b40880380/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <a href="https://github.com/ahmedmido202" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile" title="GitHub Profile">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- SECTION 1: HOME / HERO -->
+    <section class="section hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <div class="hero-status-pill">
+              <span class="pulse-dot"></span>
+              <span>Available for Junior Data Engineer Roles</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="text-gradient">Ahmed Khaled</span>
+            </h1>
+
+            <div class="hero-role">
+              <span>Junior Data Engineer</span>
+              <span class="hero-role-code">&lt;Data Architecture & Dimensional Modeling/&gt;</span>
+            </div>
+
+            <p class="hero-summary">
+              Focused on data architecture, data warehouse design, and dimensional modeling. I translate business processes into scalable analytical data models with well-defined grain, fact tables, and dimension structures.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary" id="btnHeroProjects">
+                <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                <span>Explore Projects</span>
+              </a>
+              <a href="#contact" class="btn btn-secondary" id="btnHeroContact">
+                <span>Get In Touch</span>
+              </a>
+            </div>
+
+            <!-- Profile Links -->
+            <div class="hero-social-links">
+              <span class="hero-social-label">Connect:</span>
+              <div class="hero-social-btns">
+                <a href="https://www.linkedin.com/in/ahmed-khaled-b40880380/" target="_blank" rel="noopener noreferrer" class="social-btn" id="heroLinkedIn">
+                  <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  <span>LinkedIn Profile</span>
+                </a>
+                <a href="https://github.com/ahmedmido202" target="_blank" rel="noopener noreferrer" class="social-btn" id="heroGitHub">
+                  <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Profile Image Display -->
+          <div class="hero-image-wrapper">
+            <div class="hero-image-backdrop"></div>
+            <div class="hero-image-frame">
+              <img src="image.png" alt="Ahmed Khaled - Junior Data Engineer" class="hero-profile-img" width="768" height="1024" loading="eager">
+              <div class="hero-image-badge">
+                <div>
+                  <div class="hero-badge-title">Ahmed Khaled</div>
+                  <div class="hero-badge-sub">Junior Data Engineer</div>
+                </div>
+                <div class="status-badge completed">
+                  <span class="status-dot"></span>
+                  Active
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT ME -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Background & Core Focus</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Understanding business processes and translating them into scalable analytical data models.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Profile Photo in About Section -->
+          <div class="about-photo-card glass-card">
+            <img src="image.png" alt="Ahmed Khaled" class="about-photo-img" loading="lazy">
+            <div class="about-photo-overlay">
+              <h3 style="font-size: 1.15rem; color: #fff;">Ahmed Khaled</h3>
+              <p style="font-size: 0.85rem; color: var(--text-accent); font-family: var(--font-mono);">Junior Data Engineer</p>
+            </div>
+          </div>
+
+          <!-- About Details -->
+          <div class="about-details">
+            <p>
+              I'm a Junior Data Engineer with a strong interest in data architecture, data warehouse design, and dimensional modeling.
+            </p>
+            <p>
+              My main area of focus is understanding business processes and translating them into scalable analytical data models. I have studied dimensional modeling and data warehousing in depth, including Kimball's methodology, and I enjoy designing fact and dimension structures based on real business requirements.
+            </p>
+            <p>
+              Alongside data modeling, I work with Python, SQL, Databricks, Spark SQL, Delta Lake, Pandas, and ETL/ELT workflows.
+            </p>
+
+            <!-- Highlights -->
+            <div class="about-highlights-grid">
+              <div class="about-highlight-box">
+                <h4>
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                  Data Architecture
+                </h4>
+                <p>Designing warehouse architectures with staging, core, and analytical layers for structured data flow.</p>
+              </div>
+
+              <div class="about-highlight-box">
+                <h4>
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2zM4 21a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2z"></path></svg>
+                  Dimensional Modeling
+                </h4>
+                <p>Designing star schemas with fact and dimension tables based on Kimball's methodology and business process analysis.</p>
+              </div>
+
+              <div class="about-highlight-box">
+                <h4>
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                  ETL / ELT Architecture
+                </h4>
+                <p>Building data pipelines that extract, clean, transform, and load data into analytical schemas.</p>
+              </div>
+
+              <div class="about-highlight-box">
+                <h4>
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                  Business Process Modeling
+                </h4>
+                <p>Analyzing business requirements to define grain, identify measures, and structure conformed dimensions.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">Core skills across data architecture, dimensional modeling, pipeline development, and automated extraction.</p>
+        </div>
+
+        <div class="skills-categories-grid">
+
+          <!-- Category 1: Data Architecture & Modeling -->
+          <div class="glass-card skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Data Architecture & Modeling</h3>
+                <span class="skill-badge-type">Core Focus</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #38bdf8;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2zM4 21a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2z"></path></svg>
+                  Data Architecture
+                </span>
+                <span class="skill-badge-type">Warehouse Layers</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #34d399;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                  Data Warehouse Design
+                </span>
+                <span class="skill-badge-type">Analytical Storage</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #a855f7;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                  Dimensional Modeling
+                </span>
+                <span class="skill-badge-type">Kimball Methodology</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #f59e0b;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                  Star Schema
+                </span>
+                <span class="skill-badge-type">Schema Design</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #60a5fa;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"></path></svg>
+                  Fact & Dimension Design
+                </span>
+                <span class="skill-badge-type">Table Structures</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #fb923c;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                  Business Process Modeling
+                </span>
+                <span class="skill-badge-type">Requirement Analysis</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #8b5cf6;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                  ETL / ELT Architecture
+                </span>
+                <span class="skill-badge-type">Pipeline Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Data Engineering -->
+          <div class="glass-card skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Data Engineering</h3>
+                <span class="skill-badge-type">Platforms & Pipelines</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #a855f7;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                  ETL / ELT
+                </span>
+                <span class="skill-badge-type">Data Pipelines</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #ef4444;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                  Databricks
+                </span>
+                <span class="skill-badge-type">Lakehouse Platform</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #f59e0b;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                  Spark SQL
+                </span>
+                <span class="skill-badge-type">Distributed Queries</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #38bdf8;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                  Delta Lake
+                </span>
+                <span class="skill-badge-type">ACID Storage Layer</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #22c55e;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                  Data Pipelines
+                </span>
+                <span class="skill-badge-type">Workflow Orchestration</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Programming & Data -->
+          <div class="glass-card skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Programming & Data</h3>
+                <span class="skill-badge-type">Languages & Libraries</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="color: #38bdf8;"><path d="M14.25 2.5c-.828 0-1.5.672-1.5 1.5v1.25H6.5A2.75 2.75 0 003.75 8v4.25c0 .828.672 1.5 1.5 1.5h1.25V15A2.75 2.75 0 009.25 17.75h4.25c.828 0 1.5-.672 1.5-1.5V15h2.75A2.75 2.75 0 0020.5 12.25V8c0-.828-.672-1.5-1.5-1.5h-1.25V4A1.5 1.5 0 0016.25 2.5h-2z"/></svg>
+                  Python
+                </span>
+                <span class="skill-badge-type">Primary Language</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #60a5fa;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                  SQL
+                </span>
+                <span class="skill-badge-type">Data Querying</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #6366f1;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                  Pandas
+                </span>
+                <span class="skill-badge-type">Data Processing</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Data Collection -->
+          <div class="glass-card skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Data Collection</h3>
+                <span class="skill-badge-type">Ingestion & Extraction</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #22c55e;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                  Playwright
+                </span>
+                <span class="skill-badge-type">Browser Automation</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #38bdf8;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"></path></svg>
+                  Web Scraping
+                </span>
+                <span class="skill-badge-type">Data Extraction</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: DATA MODELING & WAREHOUSE DESIGN -->
+    <section class="section" id="data-modeling">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Specialization</span>
+          <h2 class="section-title">Data Modeling & Warehouse Design</h2>
+          <p class="section-subtitle">Translating business processes and analytical requirements into well-structured dimensional data models.</p>
+        </div>
+
+        <!-- Modeling Philosophy Statement -->
+        <div class="modeling-intro glass-card" style="margin-bottom: 40px; padding: 28px 32px;">
+          <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; margin: 0;">
+            My approach to data warehouse design starts with understanding the business process being modeled. By clearly defining the grain, identifying the measurable facts, and structuring the relevant dimensions, I design schemas that directly serve analytical workloads. I have studied Kimball's dimensional modeling methodology in depth and apply it to select the appropriate fact table type and dimension strategies based on each business scenario.
+          </p>
+        </div>
+
+        <!-- Main Modeling Grid -->
+        <div class="modeling-grid">
+
+          <!-- Column 1: Warehouse Architecture & Process -->
+          <div class="glass-card modeling-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon" style="background: rgba(56, 189, 248, 0.12);">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Warehouse Architecture & Process</h3>
+                <span class="skill-badge-type">Foundation</span>
+              </div>
+            </div>
+
+            <div class="modeling-concepts-list">
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Data Warehouse Architecture</div>
+                  <div class="modeling-concept-desc">Designing layered warehouse systems with staging, core, and analytical tiers for structured data flow.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Business Process Analysis</div>
+                  <div class="modeling-concept-desc">Identifying business processes as the foundation for selecting what to model and how to structure fact tables.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Grain Definition</div>
+                  <div class="modeling-concept-desc">Declaring the precise level of detail captured in each fact table row — the foundational step of dimensional design.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">ETL / ELT Design</div>
+                  <div class="modeling-concept-desc">Architecting extraction, transformation, and loading pipelines that populate and maintain warehouse layers.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Staging, Core & Analytical Layers</div>
+                  <div class="modeling-concept-desc">Separating raw ingestion, cleansed/conformed data, and business-ready analytical models into distinct tiers.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Dimensional Modeling Techniques -->
+          <div class="glass-card modeling-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon" style="background: rgba(139, 92, 246, 0.12); color: #a78bfa;">
+                <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Dimensional Modeling Techniques</h3>
+                <span class="skill-badge-type">Kimball Methodology</span>
+              </div>
+            </div>
+
+            <div class="modeling-concepts-list">
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon" style="color: #a78bfa;">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Dimensional Modeling</div>
+                  <div class="modeling-concept-desc">Structuring analytical data into facts and dimensions following Kimball's four-step process.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon" style="color: #a78bfa;">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Star Schema</div>
+                  <div class="modeling-concept-desc">Building denormalized schemas with a central fact table surrounded by descriptive dimension tables.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon" style="color: #a78bfa;">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Fact Table Design</div>
+                  <div class="modeling-concept-desc">Designing fact tables to capture business events with additive, semi-additive, and non-additive measures.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon" style="color: #a78bfa;">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Dimension Table Design</div>
+                  <div class="modeling-concept-desc">Creating descriptive context tables with surrogate keys, hierarchies, and attributes for slicing and filtering.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon" style="color: #a78bfa;">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Surrogate Keys</div>
+                  <div class="modeling-concept-desc">Using system-generated keys to decouple warehouse identity from source system natural keys.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon" style="color: #a78bfa;">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Slowly Changing Dimensions (SCD)</div>
+                  <div class="modeling-concept-desc">Handling dimension attribute changes over time using Type 1 (overwrite), Type 2 (versioned rows), and Type 3 strategies.</div>
+                </div>
+              </div>
+              <div class="modeling-concept-item">
+                <div class="modeling-concept-icon" style="color: #a78bfa;">⬡</div>
+                <div>
+                  <div class="modeling-concept-title">Conformed Dimensions</div>
+                  <div class="modeling-concept-desc">Designing shared dimensions used consistently across multiple fact tables and business processes.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Fact Table Design Patterns -->
+        <div class="fact-patterns-section">
+          <h3 class="fact-patterns-title">
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"></path></svg>
+            Fact Table Design Patterns
+          </h3>
+          <p class="fact-patterns-subtitle">Selecting the appropriate fact table type based on the business process and the analytical questions being asked.</p>
+
+          <div class="fact-patterns-grid">
+            <div class="glass-card fact-pattern-card">
+              <div class="fact-pattern-label">Pattern</div>
+              <h4 class="fact-pattern-name">Transaction Fact Tables</h4>
+              <p class="fact-pattern-desc">One row per discrete business event. Captures individual transactions at the most granular level — ideal for detailed event analysis and drill-down reporting.</p>
+              <div class="fact-pattern-example">
+                <span class="fact-pattern-example-label">Example:</span> Each sales order line, each payment, each click event
+              </div>
+            </div>
+
+            <div class="glass-card fact-pattern-card">
+              <div class="fact-pattern-label">Pattern</div>
+              <h4 class="fact-pattern-name">Periodic Snapshot Fact Tables</h4>
+              <p class="fact-pattern-desc">One row per measurement period. Captures cumulative or point-in-time metrics at regular intervals — suited for trend analysis and performance monitoring.</p>
+              <div class="fact-pattern-example">
+                <span class="fact-pattern-example-label">Example:</span> Monthly account balance, daily inventory level, weekly pipeline status
+              </div>
+            </div>
+
+            <div class="glass-card fact-pattern-card">
+              <div class="fact-pattern-label">Pattern</div>
+              <h4 class="fact-pattern-name">Accumulating Snapshot Fact Tables</h4>
+              <p class="fact-pattern-desc">One row per process instance, updated as it progresses through milestones. Tracks lifecycle durations and stage-to-stage lag analysis.</p>
+              <div class="fact-pattern-example">
+                <span class="fact-pattern-example-label">Example:</span> Order fulfillment pipeline, loan application lifecycle, support ticket resolution
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4: PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Engineering Work</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Real-world data pipelines and warehouse architectures built to solve practical data challenges.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: LinkedIn Jobs Data Pipeline (Completed) -->
+          <div class="glass-card project-card" id="project-linkedin-jobs">
+            <div>
+              <div class="project-header">
+                <div>
+                  <h3 class="project-title">LinkedIn Jobs Data Pipeline</h3>
+                </div>
+                <div class="status-badge completed">
+                  <span class="status-dot"></span>
+                  Completed
+                </div>
+              </div>
+
+              <p class="project-desc">
+                A Python-based data collection project that uses Playwright to scrape LinkedIn job postings. The project collected and processed more than 10,000 job postings.
+              </p>
+
+              <!-- Metrics & Architectural Highlights -->
+              <div class="project-highlights-box">
+                <div class="project-stat">
+                  <svg class="project-stat-icon" width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  <span>10,000+ Job Postings Collected & Processed</span>
+                </div>
+                <ul class="project-meta-list">
+                  <li>Resilient web automation handling pagination and dynamic content via Playwright</li>
+                  <li>Automated schema structuring, text normalization, and deduplication using Pandas</li>
+                  <li>Exported high-integrity dataset ready for market analytics and downstream modeling</li>
+                </ul>
+              </div>
+
+              <!-- Technologies Used -->
+              <div class="project-tech-wrapper">
+                <span class="project-tech-label">Technologies:</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Playwright</span>
+                  <span class="tech-tag">Pandas</span>
+                  <span class="tech-tag">Web Scraping</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer Action Button -->
+            <div class="project-footer">
+              <a href="https://github.com/ahmedmido202/-linkedin-jobs-data-pipeline" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="btnProjectLinkedIn">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                <span>View on GitHub</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              </a>
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">v1.0 Production</span>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: Sales Data Warehouse (In Progress) -->
+          <div class="glass-card project-card" id="project-sales-warehouse">
+            <div>
+              <div class="project-header">
+                <div>
+                  <h3 class="project-title">Sales Data Warehouse</h3>
+                </div>
+                <div class="status-badge in-progress">
+                  <span class="status-dot"></span>
+                  In Progress
+                </div>
+              </div>
+
+              <p class="project-desc">
+                Designed a sales data warehouse that transforms raw sales data into an analytical dimensional model. The project covers staging, data cleaning and transformation, incremental loading, and dimensional modeling. The warehouse is designed around business processes with clearly defined grain, fact tables, and dimensions, using dimensional modeling principles for analytical workloads.
+              </p>
+
+              <!-- Architectural Highlights -->
+              <div class="project-highlights-box">
+                <div class="project-stat" style="color: #fbbf24;">
+                  <svg class="project-stat-icon" width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: #fbbf24;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  <span>Dimensional Modeling & Layered Architecture</span>
+                </div>
+                <ul class="project-meta-list">
+                  <li>Business process-driven design with clearly defined grain for each fact table</li>
+                  <li>Dimensional model with structured fact and dimension tables following Kimball methodology</li>
+                  <li>Incremental loading pipeline moving data through staging, cleaning, and analytical layers</li>
+                </ul>
+              </div>
+
+              <!-- Technologies Used -->
+              <div class="project-tech-wrapper">
+                <span class="project-tech-label">Technologies / Concepts:</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">Databricks</span>
+                  <span class="tech-tag">Spark SQL</span>
+                  <span class="tech-tag">Delta Lake</span>
+                  <span class="tech-tag">SQL</span>
+                  <span class="tech-tag">Data Warehousing</span>
+                  <span class="tech-tag">Dimensional Modeling</span>
+                  <span class="tech-tag">Fact & Dimension Tables</span>
+                  <span class="tech-tag">ETL / ELT</span>
+                  <span class="tech-tag">Incremental Loading</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer Status Notice (No Link as requested) -->
+            <div class="project-footer">
+              <div class="in-progress-notice">
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span>Active development — Repository link will be published upon completion</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Background</span>
+          <h2 class="section-title">Experience</h2>
+          <p class="section-subtitle">Professional readiness and technical orientation for data engineering opportunities.</p>
+        </div>
+
+        <div class="experience-layout">
+          <div class="glass-card experience-card">
+            <div class="experience-badge">
+              <span class="status-dot" style="background-color: var(--text-accent);"></span>
+              Junior Data Engineer Candidate
+            </div>
+
+            <h3 class="experience-headline">Open to Junior Data Engineer & Entry-Level Positions</h3>
+            
+            <p class="experience-description">
+              Actively seeking roles where I can contribute to data infrastructure, automated ETL/ELT pipelines, data warehousing, and web scraping systems. Equipped with hands-on project experience deploying Python data extraction pipelines and architecting data warehouses on Databricks with Spark SQL.
+            </p>
+
+            <div class="experience-points-grid">
+              <div class="exp-point-box">
+                <div class="exp-point-title">Data Pipeline Development</div>
+                <p class="exp-point-text">Building resilient workflows for data ingestion, cleaning, and staging with Python and Pandas.</p>
+              </div>
+              <div class="exp-point-box">
+                <div class="exp-point-title">Lakehouse & Warehousing</div>
+                <p class="exp-point-text">Designing dimensional star schemas and querying Delta Lake tables using Spark SQL and Databricks.</p>
+              </div>
+              <div class="exp-point-box">
+                <div class="exp-point-title">Automated Scraping</div>
+                <p class="exp-point-text">Developing scalable web scrapers with Playwright capable of processing over 10,000+ records.</p>
+              </div>
+            </div>
+
+            <div class="experience-action-row">
+              <span class="experience-status-text">Complete resume and background information available upon request.</span>
+              <a href="https://www.linkedin.com/in/ahmed-khaled-b40880380/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <span>Connect on LinkedIn</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Academic foundation and theoretical background supporting data engineering practices.</p>
+        </div>
+
+        <div class="education-layout">
+          <div class="glass-card education-card">
+            <div class="education-header-group">
+              <div>
+                <h3 class="education-title">Academic Qualifications</h3>
+                <div class="education-subtitle">Data Engineering & Computer Science Foundation</div>
+              </div>
+              <span class="status-badge completed">
+                <span class="status-dot"></span>
+                Verified
+              </span>
+            </div>
+
+            <p class="education-desc">
+              Strong theoretical foundation in relational database management, data modeling, algorithms, data structures, and distributed data systems. Continuous learner dedicated to mastering modern cloud data platforms and distributed computing frameworks.
+            </p>
+
+            <div class="education-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                </div>
+                <div>
+                  <div class="pillar-title">Database Systems</div>
+                  <div class="pillar-sub">Relational schema design, normalization, ACID properties, and indexing.</div>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                </div>
+                <div>
+                  <div class="pillar-title">Computational Thinking</div>
+                  <div class="pillar-sub">Algorithmic complexity, data manipulation, and software engineering principles.</div>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                </div>
+                <div>
+                  <div class="pillar-title">Analytical Modeling</div>
+                  <div class="pillar-sub">Dimensional concepts, Star & Snowflake schemas, and analytical SQL.</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Interested in discussing opportunities, data engineering projects, or collaborations? Let's connect.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Direct Channels -->
+          <div class="glass-card contact-info-card">
+            <div>
+              <h3 style="font-size: 1.35rem; margin-bottom: 12px;">Let's Connect</h3>
+              <p style="color: var(--text-secondary); line-height: 1.7;">
+                I am actively seeking Junior Data Engineer opportunities. Feel free to connect directly on LinkedIn or browse my open-source code and data pipeline repositories on GitHub.
+              </p>
+
+              <div class="contact-direct-channels">
+                <!-- LinkedIn Channel -->
+                <a href="https://www.linkedin.com/in/ahmed-khaled-b40880380/" target="_blank" rel="noopener noreferrer" class="channel-link" id="contactLinkedIn">
+                  <div class="channel-icon-box">
+                    <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-name">LinkedIn Profile</span>
+                    <span class="channel-url">linkedin.com/in/ahmed-khaled-b40880380</span>
+                  </div>
+                  <svg class="channel-arrow" width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+
+                <!-- GitHub Channel -->
+                <a href="https://github.com/ahmedmido202" target="_blank" rel="noopener noreferrer" class="channel-link" id="contactGitHub">
+                  <div class="channel-icon-box">
+                    <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-name">GitHub Profile</span>
+                    <span class="channel-url">github.com/ahmedmido202</span>
+                  </div>
+                  <svg class="channel-arrow" width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+              </div>
+            </div>
+
+            <div style="font-size: 0.85rem; color: var(--text-muted); border-top: 1px solid var(--border-color); padding-top: 16px;">
+              <span>Location: Open to remote and on-site Junior Data Engineer opportunities.</span>
+            </div>
+          </div>
+
+          <!-- Direct Message Form -->
+          <div class="glass-card contact-form-card">
+            <h3 style="font-size: 1.35rem; margin-bottom: 8px;">Send a Direct Message</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 24px;">Send a message directly or connect via LinkedIn.</p>
+
+            <form id="contactForm" onsubmit="handleContactSubmit(event)">
+              <div class="form-group">
+                <label for="senderName" class="form-label">Your Name</label>
+                <input type="text" id="senderName" class="form-input" placeholder="e.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Your Email</label>
+                <input type="email" id="senderEmail" class="form-input" placeholder="e.g. john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="messageSubject" class="form-label">Subject</label>
+                <input type="text" id="messageSubject" class="form-input" placeholder="Junior Data Engineer Opportunity / Collaboration" required>
+              </div>
+
+              <div class="form-group">
+                <label for="messageText" class="form-label">Message</label>
+                <textarea id="messageText" class="form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;" id="btnSubmitMessage">
+                <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                <span>Send Message</span>
+              </button>
+
+              <div id="formNotification" style="display:none; margin-top:16px; padding:12px; border-radius:8px; font-size:0.875rem; text-align:center;"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-name">Ahmed Khaled</div>
+          <div class="footer-role">Junior Data Engineer • Data Architecture, Dimensional Modeling & Warehousing</div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#data-modeling" class="footer-link">Data Modeling</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#experience" class="footer-link">Experience</a>
+          <a href="#education" class="footer-link">Education</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear"></span> Ahmed Khaled. All rights reserved.
+        </div>
+        <div style="font-family: var(--font-mono); font-size: 0.75rem;">
+          Portfolio &bull; Junior Data Engineer
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
